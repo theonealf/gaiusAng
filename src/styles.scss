@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/bootstrap.scss";
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #b5bbb8;
+}
+
+.logoblock{
+    text-align: end;
+    
+}
+.logotextblock{
+    p{
+        align-self: flex-end;
+    height: 100%;
+    margin-bottom:0px;
+    }
+    
+}
+.itemrow{    
+    margin: 0;
+    padding: 10px 20px;
+    img{
+        border-radius: 0.25rem;
+    }
+}
+.blockcolorLight{
+    background-color:#f5f4ed;
+}
+.blockcolorBlue{
+    background-color:#e9f5f6;
+}
+.itemtextblock{
+    align-self: flex-end;
+    margin-bottom: 20px;
+    line-height: 20px;
+    padding-left: 0px;
+    h2{
+        font-size: 1.2rem;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+    img{
+        padding-right: 0px;
+    }
+    .btn{
+        // display: block;
+
+    }
+}
